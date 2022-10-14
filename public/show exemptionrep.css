@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+/* page edit edit*/
+.page{
+    height: 100vh;
+        display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-areas: 
+    "head head head head head head head head head head"
+    "side side cont cont cont cont cont cont cont cont";
+    grid-template-rows: 60px auto;
+ 
+}
+/* header edit*/
+.head{
+    position: relative;
+    padding-top: 15px;
+    font-size: 20px;
+    grid-area: head;
+    background-color: rgb(220, 53, 69);
+    color: white;
+    padding-left: 10px;
+}
+.head div{
+    position: absolute;
+    left: 1300px;
+    bottom: 15px;
+    color: black;
+    width: 23px;
+    height: 25px;
+    
+}
+
+
+/* aside edit*/
+.side{
+    
+    grid-area: side;
+    background-color: rgb(220, 53, 69);
+    
+}
+
+.sidecont{
+    
+    border-radius: 4px;
+    width: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sidecont div{
+
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px dashed rgb(219 169 169);
+    padding-top: 10px;
+    background-color: rgb(245, 207, 209);
+}
+.sidecont .fa {
+    color: rgb(220, 53, 69);
+}
+
+div a{
+    color: #551A8B;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+/* contain side edit*/
+.contain{
+    grid-area: cont;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+}
+
+.contain .con{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+width: 1000px;
+height: 450px;
+border: 1px solid  black;
+background-color: mintcream;
+
+}
+.con .divcon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap ;
+width: 100%;
+
+}
+h3{
+    margin-top: 10px;
+  font-size: 25px;
+}
+.divcon div {
+    width: calc(80% /4);
+    height: 70px;
+    border: 1px solid rgba(0,0,0,.125);
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+ background-color: rgb(221 220 220);
+ padding-right: 10px;
+}
+
+.divcon .fa-tint{
+color: rgb(220, 53, 69);
+}
+.a1{
+    order: 1;
+}
+
+
+.b1{
+    order: 2;
+}
+ 
+.o1{
+    order: 3;
+}
+ 
+.ab1{
+    order: 4;
+}
+.a2{
+    order: 5;
+}
+.b2{
+    order: 6;
+}
+.o2{
+    order: 7;
+}
+.ab2{
+    order: 8;
+}
+.divcon .fa-user-friends{
+    order: 9;
+color: rgb(0, 122, 253);
+
+}
+.divcon .fa-notes-medical{
+    order: 10;
+color: rgb(220, 53, 69);
+}
+
+.divcon .fa-list{
+    order: 11;
+
+}
+
+.divcon .fa-check{
+    order: 12;
+    color: rgb(0, 123, 255);
+
+}
+.divcon p{
+    color: initial;
+    font-size: initial;
+    margin-left: 3px;
+}
+.divcon .count{
+    text-align: right;
+}
+
+
+table{
+ 
+   width: 100%;
+   border: 1px solid;
+   margin-top: 10px;
+}
+table th{
+ padding-left: 10px;
+    border-left: 1px solid #727171;
+    border-bottom: 1px solid;
+}
+table td{
+        border-left: 1px solid #727171;
+    border-bottom: 1px solid;
+   padding-left: 5px;
+   text-align: center;
+}
+.page .head .btn{
+ background-color: #F5CFD1;
+ color: #551A8B;
+ font-weight: 600;
+ }
+
+.id{
+    display: none;
+}

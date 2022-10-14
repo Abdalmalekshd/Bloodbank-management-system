@@ -1,0 +1,53 @@
+.container-fluid{
+    
+    background: rgb(255,255,255);
+    width: 600px;
+    height: 500px;
+    margin-left: 350px;
+    line-height: 43px;
+    text-align: center;
+    border: 1px solid rgb(0,0,0);
+   
+}
+.form-group{
+  text-align: left;
+  padding-left:10px;
+ 
+}
+.control-label{
+ width: 550px;
+padding-left:10px;
+}
+.form-control{
+    
+    width: 550px;
+    padding-left:px;
+}
+
+.custom-select{
+    width: 560px;
+    padding-left:10px;
+}
+
+#save{
+    background:  rgb(3, 124, 251)
+}
+
+input[type="button"]{
+    position: relative;
+    left: 500px;
+    margin-bottom: 10px;
+}
+
+hr{
+    margin-top:30px;
+}
+#s{
+ margin-left: -10px;
+}
+
+.note{
+direction: rtl;
+margin-left: 280px;
+margin-top: 5px;
+}

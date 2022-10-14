@@ -1,0 +1,103 @@
+body{
+ margin: 0px;
+ overflow: hidden;
+}
+
+p{
+ font-size: 60px;
+
+}
+img{
+ width: 250px;
+ height: 200px;
+}
+
+h1{
+ margin-left: 200px;
+
+
+}
+
+#login{
+ margin-left: 200px;
+ margin-bottom: 100px;
+  color:#dc3545;
+
+}
+
+.red{
+
+    background-color:#dc3545;
+    width: 683px;
+    height: 737px;
+    color: white;
+    margin-left: 683px;
+    text-align: center;
+    padding-top: 30px;
+    white-space: nowrap;
+
+}
+.white{
+    width: 683px;
+    height: 737px;
+    float: left;
+}
+
+
+input{
+  padding: 10px;
+  margin-top: -110px;
+  margin-left: 250px;
+  width: 250px;
+  border-radius: 20px;
+
+
+}
+
+input[type = "submit"]{
+ padding: 10px;
+ margin: 30px;
+ margin-left: 70px;
+ margin-top: 100px;
+ width: 200px;
+ border-radius: 20px;
+ background-color: #dc3545;
+ color: white;
+
+}
+
+
+input[type = "button"]{
+  padding: 10px;
+  margin: 30px;
+  margin-left: 70px;
+  margin-top: 100px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #dc3545;
+  color: white;
+
+ }
+
+.a{
+ color: #dc3545;
+ font-size: 40px;
+ margin-left: 50px;
+
+}
+.r{
+ position: absolute;
+ bottom: 650px;
+ right: 1220px;
+}
+.w{
+margin-left: 550px;
+margin-top: -115px;
+
+}
+
+span{
+    color: #dc3545;
+    margin-left: -30px;
+}
+

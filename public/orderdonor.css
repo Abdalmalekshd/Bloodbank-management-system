@@ -1,0 +1,35 @@
+.container-fluid{
+    
+    background: rgb(255,255,255);
+    width: 600px;
+    height: 570px;
+    margin-left: 350px;
+    line-height: 43px;
+    text-align: center;
+    border: 1px solid rgb(0,0,0);
+   
+}
+.form-group{
+  text-align: left;
+  padding-left: 10px;
+ 
+}
+.control-label{
+ padding-right:  10px;
+}
+.form-control{
+    width: 550px;
+    height: 30px;
+}
+
+.custom-select{
+    width: 550px;
+}
+
+#save{
+    background:  rgb(3, 124, 251)
+}
+input[type="button"]{
+    position: relative;
+    left: 500px;
+}
